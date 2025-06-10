@@ -1,0 +1,13 @@
+"""
+# Dependências básicas (já incluídas no Python)
+# tkinter - Interface gráfica (já incluído)
+# json - Manipulação de dados (já incluído)
+# datetime - Manipulação de datas (já incluído)
+# uuid - Geração de IDs únicos (já incluído)
+
+# Dependências opcionais para funcionalidades avançadas:
+# matplotlib>=3.5.0  # Para gráficos
+# pandas>=1.4.0      # Para análise de dados
+# openpyxl>=3.0.0    # Para exportar para Excel
+# reportlab>=3.6.0   # Para gerar PDFs
+"""
