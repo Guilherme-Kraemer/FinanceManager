@@ -1,0 +1,41 @@
+# 💰 Controle Financeiro v2.0
+
+## 🚀 Como usar:
+1. Execute **ControleFinanceiro.exe**
+2. Seus dados serão salvos automaticamente na pasta **Data/**
+3. O programa é completamente portátil - pode mover toda a pasta
+
+## 📁 Estrutura:
+- **ControleFinanceiro.exe** → Programa principal
+- **Data/** → Seus dados financeiros e backups
+- **config.json** → Configurações do programa
+- **LEIA-ME.txt** → Este arquivo
+
+## ✨ Principais recursos:
+- ➕ **Adicionar transações** com sugestões inteligentes
+- 👁️ **Visualizar** e filtrar todas as transações
+- 📊 **Relatórios** detalhados com gráficos
+- 💡 **Sugestões automáticas** baseadas no histórico
+- 💾 **Backup automático** dos seus dados
+- ⚙️ **Configurações** personalizáveis
+
+## 🧠 Sistema de Sugestões:
+- **Autocomplete** nas descrições
+- **Categorias automáticas** baseadas no texto
+- **Valores sugeridos** baseados no histórico
+- **Transações rápidas** com um clique
+
+## 💾 Backup e Segurança:
+- Backup automático a cada 7 dias
+- Backup manual quando desejar
+- Restauração fácil de qualquer backup
+- Dados sempre seguros na pasta Data/
+
+## 🔧 Solução de problemas:
+- Se o programa não abrir, verifique se tem permissão na pasta
+- Se perder dados, verifique a pasta Data/backups/
+- Para reportar bugs, anote a mensagem de erro exata
+
+## 📞 Suporte:
+Desenvolvido com Python + Tkinter
+Versão 2.0.0 - Sistema completo de controle financeiro

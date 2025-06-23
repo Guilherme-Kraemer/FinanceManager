@@ -1,6 +1,0 @@
-{
-  "database_path": "./Data/financial_data.json",
-  "backup_path": "./Data/backups/",
-  "app_name": "Controle Financeiro",
-  "version": "1.0.0"
-}

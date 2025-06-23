@@ -1,0 +1,13 @@
+{
+  "database_path": "./Data/financial_data.json",
+  "backup_path": "./Data/backups/",
+  "app_name": "Controle Financeiro",
+  "version": "2.0.0",
+  "auto_backup": true,
+  "backup_interval_days": 7,
+  "suggestions_enabled": true,
+  "max_suggestions": 10,
+  "window_width": 1000,
+  "window_height": 800,
+  "theme": "clam"
+}

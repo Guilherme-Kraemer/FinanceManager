@@ -1,0 +1,160 @@
+{
+  "transactions": [
+    {
+      "id": "609727a3-c443-4c18-87e7-f436a8a7c76a",
+      "description": "Patrick",
+      "amount": 2000.0,
+      "transaction_type": "receita",
+      "category": "Salário",
+      "date": "2025-06-03T00:00:00",
+      "notes": null
+    },
+    {
+      "id": "032c8af9-70fa-4140-870b-d2173f226ff6",
+      "description": "Cartão Inter",
+      "amount": 118.22,
+      "transaction_type": "despesa",
+      "category": "Contas",
+      "date": "2025-06-03T00:00:00",
+      "notes": null
+    },
+    {
+      "id": "77580fc7-8523-474a-8232-92c21e5909bf",
+      "description": "Tim",
+      "amount": 65.99,
+      "transaction_type": "despesa",
+      "category": "Contas",
+      "date": "2025-06-03T00:00:00",
+      "notes": null
+    },
+    {
+      "id": "14c2741a-ad4b-4800-93af-82577ceb7a82",
+      "description": "Headset sem fio",
+      "amount": 199.99,
+      "transaction_type": "despesa",
+      "category": "Tecnologia",
+      "date": "2025-06-04T00:00:00",
+      "notes": null
+    },
+    {
+      "id": "5b44eb68-1182-4f49-8aa6-1723d8d4143c",
+      "description": "Panificadora",
+      "amount": 10.7,
+      "transaction_type": "despesa",
+      "category": "Outros (Despesa)",
+      "date": "2025-06-04T00:00:00",
+      "notes": null
+    },
+    {
+      "id": "fb1883e3-1d5a-4f50-b326-cb7d1a59f521",
+      "description": "Panificadora",
+      "amount": 8.51,
+      "transaction_type": "despesa",
+      "category": "Alimentação",
+      "date": "2025-06-05T00:00:00",
+      "notes": null
+    },
+    {
+      "id": "23af9acf-fe18-492a-bd11-8f17ac6a132d",
+      "description": "Mercado Recanto",
+      "amount": 193.67,
+      "transaction_type": "despesa",
+      "category": "Compras",
+      "date": "2025-06-06T00:00:00",
+      "notes": null
+    },
+    {
+      "id": "c5b3d76e-4b49-460d-bf31-61a508725bcb",
+      "description": "Cabo usb-macho para usb-fêmea",
+      "amount": 15.0,
+      "transaction_type": "despesa",
+      "category": "Tecnologia",
+      "date": "2025-06-07T00:00:00",
+      "notes": null
+    },
+    {
+      "id": "351dbe0a-1abf-4227-8ad8-c7bfc3c4009c",
+      "description": "Distribuidora Sede Zero",
+      "amount": 133.7,
+      "transaction_type": "despesa",
+      "category": "Contas",
+      "date": "2025-06-06T00:00:00",
+      "notes": "1- Pack de energético\n1- Maço de cigarro"
+    },
+    {
+      "id": "93378d54-b1bf-4af6-8c6b-4bf3ffb06aa9",
+      "description": "Panificadora",
+      "amount": 3.45,
+      "transaction_type": "despesa",
+      "category": "Alimentação",
+      "date": "2025-06-08T00:00:00",
+      "notes": null
+    },
+    {
+      "id": "ef1bcf3c-fcb6-4062-950f-9b9dd51b89cd",
+      "description": "Distribuidora Sede Zero",
+      "amount": 55.2,
+      "transaction_type": "despesa",
+      "category": "Outros (Despesa)",
+      "date": "2025-02-08T00:00:00",
+      "notes": "1 - Pack de energético\n1 - Energético solto"
+    },
+    {
+      "id": "ec0451ef-73f6-4705-846f-439a3bceaef5",
+      "description": "Distribuidora Sede Zero",
+      "amount": 55.2,
+      "transaction_type": "despesa",
+      "category": "Outros (Despesa)",
+      "date": "2025-06-08T00:00:00",
+      "notes": "1 - Pack de energético\n1 - Energético solto"
+    },
+    {
+      "id": "8cac6467-bc04-4bb8-94d6-cb39c2805472",
+      "description": "Distribuidora Sede Zero",
+      "amount": 55.2,
+      "transaction_type": "despesa",
+      "category": "Outros (Despesa)",
+      "date": "2025-06-10T00:00:00",
+      "notes": "1 - Pack de energético\n1 - Energético solto"
+    },
+    {
+      "id": "bf89d3fa-16d3-414b-aa30-57a7f9d930e9",
+      "description": "Panificadora",
+      "amount": 2.42,
+      "transaction_type": "despesa",
+      "category": "Alimentação",
+      "date": "2025-06-10T00:00:00",
+      "notes": null
+    },
+    {
+      "id": "caebf3b1-2616-454f-94fa-25e107f5d57b",
+      "description": "Na viagem",
+      "amount": 10.0,
+      "transaction_type": "despesa",
+      "category": "Outros (Despesa)",
+      "date": "2025-06-09T00:00:00",
+      "notes": "1 - Energético solto"
+    },
+    {
+      "id": "970a0f46-8690-4065-8e3f-0db3f690f68b",
+      "description": "Distribuidora Sede Zero",
+      "amount": 8.5,
+      "transaction_type": "despesa",
+      "category": "Contas",
+      "date": "2025-06-05T00:00:00",
+      "notes": "Aparentemente, cigarro"
+    },
+    {
+      "id": "ede35cd3-185c-4cfb-a6e7-603d2b5b6cca",
+      "description": "Spotify",
+      "amount": 11.9,
+      "transaction_type": "despesa",
+      "category": "Contas",
+      "date": "2025-06-05T00:00:00",
+      "notes": null
+    }
+  ],
+  "saved_at": "2025-06-10T21:27:59.250885",
+  "version": "2.0.0",
+  "total_transactions": 17
+}

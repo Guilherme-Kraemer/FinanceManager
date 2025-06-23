@@ -25,6 +25,9 @@ imports:
  &#8226;   <a href="#collections">collections</a>
  &#8226;   <a href="#collections.abc">collections.abc</a>
  &#8226;   <a href="#copyreg">copyreg</a>
+ &#8226;   <a href="#csv">csv</a>
+ &#8226;   <a href="#dataclasses">dataclasses</a>
+ &#8226;   <a href="#datetime">datetime</a>
  &#8226;   <a href="#encodings">encodings</a>
  &#8226;   <a href="#encodings.aliases">encodings.aliases</a>
  &#8226;   <a href="#encodings.ascii">encodings.ascii</a>
@@ -150,9 +153,9 @@ imports:
  &#8226;   <a href="#enum">enum</a>
  &#8226;   <a href="#functools">functools</a>
  &#8226;   <a href="#genericpath">genericpath</a>
- &#8226;   <a href="#gui">gui</a>
  &#8226;   <a href="#heapq">heapq</a>
  &#8226;   <a href="#io">io</a>
+ &#8226;   <a href="#json">json</a>
  &#8226;   <a href="#keyword">keyword</a>
  &#8226;   <a href="#linecache">linecache</a>
  &#8226;   <a href="#locale">locale</a>
@@ -169,14 +172,20 @@ imports:
  &#8226;   <a href="#re._constants">re._constants</a>
  &#8226;   <a href="#re._parser">re._parser</a>
  &#8226;   <a href="#reprlib">reprlib</a>
+ &#8226;   <a href="#shutil">shutil</a>
  &#8226;   <a href="#sre_compile">sre_compile</a>
  &#8226;   <a href="#sre_constants">sre_constants</a>
  &#8226;   <a href="#sre_parse">sre_parse</a>
  &#8226;   <a href="#stat">stat</a>
  &#8226;   <a href="#sys">sys</a>
  &#8226;   <a href="#tkinter">tkinter</a>
+ &#8226;   <a href="#tkinter.filedialog">tkinter.filedialog</a>
+ &#8226;   <a href="#tkinter.messagebox">tkinter.messagebox</a>
+ &#8226;   <a href="#tkinter.ttk">tkinter.ttk</a>
  &#8226;   <a href="#traceback">traceback</a>
  &#8226;   <a href="#types">types</a>
+ &#8226;   <a href="#typing">typing</a>
+ &#8226;   <a href="#uuid">uuid</a>
  &#8226;   <a href="#warnings">warnings</a>
  &#8226;   <a href="#weakref">weakref</a>
 
@@ -1447,7 +1456,6 @@ imported by:
  &#8226;   <a href="#contextlib">contextlib</a>
  &#8226;   <a href="#dis">dis</a>
  &#8226;   <a href="#email.feedparser">email.feedparser</a>
- &#8226;   <a href="#finance_manager">finance_manager</a>
  &#8226;   <a href="#functools">functools</a>
  &#8226;   <a href="#importlib.metadata">importlib.metadata</a>
  &#8226;   <a href="#importlib.metadata._collections">importlib.metadata._collections</a>
@@ -1488,26 +1496,6 @@ imported by:
  &#8226;   <a href="#traceback">traceback</a>
  &#8226;   <a href="#tracemalloc">tracemalloc</a>
  &#8226;   <a href="#typing">typing</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="config_manager"></a>
-  <a target="code" href="///C:/Users/guica/Desktop/Pessoal/projeto_financeiro/config_manager.py" type="text/plain"><tt>config_manager</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#json">json</a>
- &#8226;   <a href="#os">os</a>
- &#8226;   <a href="#pathlib">pathlib</a>
- &#8226;   <a href="#sys">sys</a>
- &#8226;   <a href="#typing">typing</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#finance_manager">finance_manager</a>
 
   </div>
 
@@ -1620,6 +1608,7 @@ imports:
   <div class="import">
 imported by:
     <a href="#importlib.metadata">importlib.metadata</a>
+ &#8226;   <a href="#main.py">main.py</a>
 
   </div>
 
@@ -1645,7 +1634,7 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#models">models</a>
+    <a href="#main.py">main.py</a>
  &#8226;   <a href="#pprint">pprint</a>
 
   </div>
@@ -1670,9 +1659,7 @@ imported by:
     <a href="#_strptime">_strptime</a>
  &#8226;   <a href="#calendar">calendar</a>
  &#8226;   <a href="#email.utils">email.utils</a>
- &#8226;   <a href="#finance_manager">finance_manager</a>
- &#8226;   <a href="#gui">gui</a>
- &#8226;   <a href="#models">models</a>
+ &#8226;   <a href="#main.py">main.py</a>
 
   </div>
 
@@ -4704,7 +4691,6 @@ imported by:
     <a href="#ast">ast</a>
  &#8226;   <a href="#inspect">inspect</a>
  &#8226;   <a href="#main.py">main.py</a>
- &#8226;   <a href="#models">models</a>
  &#8226;   <a href="#py_compile">py_compile</a>
  &#8226;   <a href="#re">re</a>
  &#8226;   <a href="#signal">signal</a>
@@ -4738,30 +4724,6 @@ imported by:
 <span class="moduletype">MissingModule</span>  <div class="import">
 imported by:
     <a href="#subprocess">subprocess</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="finance_manager"></a>
-  <a target="code" href="///C:/Users/guica/Desktop/Pessoal/projeto_financeiro/finance_manager.py" type="text/plain"><tt>finance_manager</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#collections">collections</a>
- &#8226;   <a href="#config_manager">config_manager</a>
- &#8226;   <a href="#datetime">datetime</a>
- &#8226;   <a href="#json">json</a>
- &#8226;   <a href="#models">models</a>
- &#8226;   <a href="#os">os</a>
- &#8226;   <a href="#shutil">shutil</a>
- &#8226;   <a href="#typing">typing</a>
- &#8226;   <a href="#uuid">uuid</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#gui">gui</a>
 
   </div>
 
@@ -4955,29 +4917,6 @@ imported by:
 </div>
 
 <div class="node">
-  <a name="gui"></a>
-  <a target="code" href="///C:/Users/guica/Desktop/Pessoal/projeto_financeiro/gui.py" type="text/plain"><tt>gui</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#datetime">datetime</a>
- &#8226;   <a href="#finance_manager">finance_manager</a>
- &#8226;   <a href="#models">models</a>
- &#8226;   <a href="#tkinter">tkinter</a>
- &#8226;   <a href="#tkinter.filedialog">tkinter.filedialog</a>
- &#8226;   <a href="#tkinter.messagebox">tkinter.messagebox</a>
- &#8226;   <a href="#tkinter.ttk">tkinter.ttk</a>
- &#8226;   <a href="#typing">typing</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#main.py">main.py</a>
-
-  </div>
-
-</div>
-
-<div class="node">
   <a name="gzip"></a>
   <a target="code" href="///C:/Users/guica/AppData/Local/Programs/Python/Python311/Lib/gzip.py" type="text/plain"><tt>gzip</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
@@ -5056,7 +4995,6 @@ imports:
  &#8226;   <a href="#importlib">importlib</a>
  &#8226;   <a href="#importlib._bootstrap">importlib._bootstrap</a>
  &#8226;   <a href="#importlib._bootstrap_external">importlib._bootstrap_external</a>
- &#8226;   <a href="#importlib.machinery">importlib.machinery</a>
  &#8226;   <a href="#sys">sys</a>
  &#8226;   <a href="#warnings">warnings</a>
 
@@ -5187,8 +5125,7 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#importlib">importlib</a>
- &#8226;   <a href="#importlib.abc">importlib.abc</a>
+    <a href="#importlib.abc">importlib.abc</a>
  &#8226;   <a href="#inspect">inspect</a>
  &#8226;   <a href="#py_compile">py_compile</a>
 
@@ -5688,11 +5625,10 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#config_manager">config_manager</a>
- &#8226;   <a href="#finance_manager">finance_manager</a>
- &#8226;   <a href="#json.decoder">json.decoder</a>
+    <a href="#json.decoder">json.decoder</a>
  &#8226;   <a href="#json.encoder">json.encoder</a>
  &#8226;   <a href="#json.scanner">json.scanner</a>
+ &#8226;   <a href="#main.py">main.py</a>
 
   </div>
 
@@ -5900,26 +5836,6 @@ imported by:
 </div>
 
 <div class="node">
-  <a name="models"></a>
-  <a target="code" href="///C:/Users/guica/Desktop/Pessoal/projeto_financeiro/models.py" type="text/plain"><tt>models</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#dataclasses">dataclasses</a>
- &#8226;   <a href="#datetime">datetime</a>
- &#8226;   <a href="#enum">enum</a>
- &#8226;   <a href="#typing">typing</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#finance_manager">finance_manager</a>
- &#8226;   <a href="#gui">gui</a>
-
-  </div>
-
-</div>
-
-<div class="node">
   <a name="msvcrt"></a>
   <tt>msvcrt</tt> <span class="moduletype"><i>(builtin module)</i></span>  <div class="import">
 imported by:
@@ -6066,10 +5982,8 @@ imports:
 imported by:
     <a href="#argparse">argparse</a>
  &#8226;   <a href="#bz2">bz2</a>
- &#8226;   <a href="#config_manager">config_manager</a>
  &#8226;   <a href="#contextlib">contextlib</a>
  &#8226;   <a href="#email.utils">email.utils</a>
- &#8226;   <a href="#finance_manager">finance_manager</a>
  &#8226;   <a href="#fnmatch">fnmatch</a>
  &#8226;   <a href="#genericpath">genericpath</a>
  &#8226;   <a href="#getopt">getopt</a>
@@ -6153,8 +6067,7 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#config_manager">config_manager</a>
- &#8226;   <a href="#importlib.metadata">importlib.metadata</a>
+    <a href="#importlib.metadata">importlib.metadata</a>
  &#8226;   <a href="#importlib.resources._common">importlib.resources._common</a>
  &#8226;   <a href="#importlib.resources._legacy">importlib.resources._legacy</a>
  &#8226;   <a href="#importlib.resources.readers">importlib.resources.readers</a>
@@ -6627,7 +6540,7 @@ imports:
   <div class="import">
 imported by:
     <a href="#argparse">argparse</a>
- &#8226;   <a href="#finance_manager">finance_manager</a>
+ &#8226;   <a href="#main.py">main.py</a>
  &#8226;   <a href="#tarfile">tarfile</a>
  &#8226;   <a href="#tempfile">tempfile</a>
  &#8226;   <a href="#uuid">uuid</a>
@@ -6894,7 +6807,6 @@ imported by:
  &#8226;   <a href="#calendar">calendar</a>
  &#8226;   <a href="#codecs">codecs</a>
  &#8226;   <a href="#collections">collections</a>
- &#8226;   <a href="#config_manager">config_manager</a>
  &#8226;   <a href="#contextlib">contextlib</a>
  &#8226;   <a href="#dataclasses">dataclasses</a>
  &#8226;   <a href="#datetime">datetime</a>
@@ -7115,8 +7027,7 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#gui">gui</a>
- &#8226;   <a href="#main.py">main.py</a>
+    <a href="#main.py">main.py</a>
  &#8226;   <a href="#tkinter.commondialog">tkinter.commondialog</a>
  &#8226;   <a href="#tkinter.constants">tkinter.constants</a>
  &#8226;   <a href="#tkinter.dialog">tkinter.dialog</a>
@@ -7195,7 +7106,7 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#gui">gui</a>
+    <a href="#main.py">main.py</a>
  &#8226;   <a href="#tkinter">tkinter</a>
 
   </div>
@@ -7213,7 +7124,7 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#gui">gui</a>
+    <a href="#main.py">main.py</a>
  &#8226;   <a href="#tkinter">tkinter</a>
  &#8226;   <a href="#tkinter.simpledialog">tkinter.simpledialog</a>
 
@@ -7248,7 +7159,7 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#gui">gui</a>
+    <a href="#main.py">main.py</a>
  &#8226;   <a href="#tkinter">tkinter</a>
 
   </div>
@@ -7403,17 +7314,14 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#config_manager">config_manager</a>
- &#8226;   <a href="#finance_manager">finance_manager</a>
- &#8226;   <a href="#functools">functools</a>
- &#8226;   <a href="#gui">gui</a>
+    <a href="#functools">functools</a>
  &#8226;   <a href="#importlib.metadata">importlib.metadata</a>
  &#8226;   <a href="#importlib.metadata._meta">importlib.metadata._meta</a>
  &#8226;   <a href="#importlib.resources._common">importlib.resources._common</a>
  &#8226;   <a href="#importlib.resources._itertools">importlib.resources._itertools</a>
  &#8226;   <a href="#importlib.resources._legacy">importlib.resources._legacy</a>
  &#8226;   <a href="#importlib.resources.abc">importlib.resources.abc</a>
- &#8226;   <a href="#models">models</a>
+ &#8226;   <a href="#main.py">main.py</a>
 
   </div>
 
@@ -7489,7 +7397,7 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#finance_manager">finance_manager</a>
+    <a href="#main.py">main.py</a>
 
   </div>
 
